@@ -1,0 +1,22 @@
+# ============================================
+# BLOCKLYNK — Stellar TOML
+# ============================================
+VERSION = "2.0.0"
+
+NETWORK_PASSPHRASE = "Pi Testnet"
+
+[DOCUMENTATION]
+ORG_NAME = "Blocklynk"
+ORG_URL = "https://zainhacer.github.io/Blocklynk/"
+ORG_DESCRIPTION = "A fully decentralized real-world utility token on Pi Blockchain"
+
+[[CURRENCIES]]
+code = "BLOCK"
+issuer = "GAWRNT4CZS7V6YRUYOP5LISYE565DWWQAB4G7UH4JZWTK2ESIMZQ7GWY"
+display_decimals = 7
+name = "Blocklynk Token"
+desc = "Utility token for the Blocklynk DeFi ecosystem on Pi Blockchain"
+image = "https://zainhacer.github.io/Blocklynk/logo.png"
+is_asset_anchored = false
+anchor_asset_type = "other"
+status = "live-Testnet"
