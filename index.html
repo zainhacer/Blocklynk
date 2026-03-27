@@ -7,6 +7,16 @@
   <meta name="description" content="Blocklynk — Fully decentralized utility token on Pi Blockchain. Join testnet, earn mainnet rewards."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <script>
+  (function(){
+    var p = new URLSearchParams(window.location.search).get('p');
+    if (p) {
+      var newUrl = window.location.pathname.split('?')[0] +
+        '/' + decodeURIComponent(p) + window.location.hash;
+      window.history.replaceState(null, '', newUrl);
+    }
+  })();
+</script>
   <script type="module" crossorigin src="/Blocklynk/assets/index-DPriaEyd.js"></script>
   <link rel="stylesheet" crossorigin href="/Blocklynk/assets/index-zsf2vXSk.css">
 </head>
